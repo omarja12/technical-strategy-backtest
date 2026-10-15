@@ -27,7 +27,7 @@ Full table: [`results/test_results.md`](results/test_results.md) · equity curve
 - **No strategy beat buy-and-hold on return** for SPY, QQQ or gold. Being out of the market 20-50% of the time cost more in missed rallies than it saved in drawdowns.
 - **Some rules improved risk, not return.** Stochastic RSI raised Sharpe slightly on SPY and QQQ and almost halved SPY's maximum drawdown, with half the time in the market.
 - **Trend filters helped in a bear market.** On long Treasuries, which fell 48% peak to trough, the SMA crossover and SMA + RSI cut the drawdown to −16% to −18% and turned a loss into a small gain.
-- **In-sample Sharpe did not predict out-of-sample Sharpe**: the parameters that won 2010-2019 often ranked mid-table afterwards. The mean-reversion z-score rule was the weakest everywhere.
+- **In-sample Sharpe did not predict out-of-sample Sharpe**: the parameters that won 2010-2019 often ranked mid-table afterwards. The mean-reversion z-score rule was the weakest on both equity ETFs (Sharpe 0.21 and 0.27).
 
 ## Design
 
